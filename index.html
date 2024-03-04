@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Amharic Speech to Text</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Amharic Speech to Text</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <img
+        src="mic.png"
+        id="startBtn"
+        alt="Start Speaking"
+        style="cursor: pointer"
+      />
+      <div id="textContainer">
+        <textarea
+          id="textBox"
+          placeholder="Transcribed text will appear here..."
+        ></textarea>
+        <button id="copyButton">Copy</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
